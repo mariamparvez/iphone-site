@@ -1,0 +1,41 @@
+.slick-list {
+  height: 20rem !important;
+}
+.slick-slide {
+  height: fit-content;
+}
+.f-text p {
+  text-align: end !important;
+}
+.f-box {
+  padding: 4rem 9rem;
+}
+.f-content h3 {
+  padding-bottom: 1rem;
+}
+@media only screen and (max-width: 1275px) {
+  .feedback {
+    box-shadow: none !important;
+  }
+  .slick-track {
+    height: fit-content !important;
+    margin-left: 1rem;
+  }
+  .slick-track h3 {
+    font-size: 14px;
+    padding-left: 0.5rem;
+  }
+  .slick-track h5 {
+    font-size: 16px;
+    padding-left: 0.5rem;
+  }
+  .slick-track p {
+    font-size: 12px;
+    padding-left: 0.5rem;
+  }
+}
+@media only screen and (max-width: 490px) {
+  #f-box {
+    display: none !important;
+  }
+}

@@ -1,0 +1,36 @@
+#top-tests {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  background-color: #fafdff;
+  padding: 1rem;
+}
+#top-test-col {
+  padding: 0;
+}
+.top-test-1 {
+  display: flex;
+  align-items: center;
+}
+.top-test-1 h6 {
+  margin: 0;
+  font-size: 9px;
+}
+.top-test {
+  margin: 0.2rem;
+  width: fit-content;
+  padding: 0.5rem;
+  border: 1px solid rgba(199, 187, 187, 0.2);
+}
+.top-test:hover {
+  background-color: rgba(215, 215, 240, 0.2);
+}
+.top-test-img {
+  height: auto;
+  padding: 2px;
+  width: 28px !important;
+  height: auto;
+  padding: 2px;
+  margin-right: 12px;
+  border-radius: 50%;
+  background-color: rgba(136, 155, 207, 0.1);
+}

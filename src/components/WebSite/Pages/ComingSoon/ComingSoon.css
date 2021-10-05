@@ -1,0 +1,10 @@
+.time{
+  width: 25%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .coming-soon {
+    width: 1100px;
+  }
+}
