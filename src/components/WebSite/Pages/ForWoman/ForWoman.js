@@ -15,8 +15,8 @@ const ForWoman = () => {
     <Space/>
 <section className="fw-banner">
         <article className="banner-design">
-            <div className="banner-header">
-                <h1>Simplifying Healthcare for Women</h1>
+            <div className="banner-head">
+                <h5>Simplifying Healthcare for Women</h5>
                 <p>Stay Strong and Healthy</p>
             </div>
         </article>
