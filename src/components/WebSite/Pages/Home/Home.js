@@ -11,6 +11,7 @@ import './FormDesign.css'
 import HomeBanner from './HomeBanner/HomeBanner';
 import SearchS from './Search/SearchS';
 import SelfCheck from '../DynamicComponents/SelfCheck/SelfCheck';
+import BannerTwo from './BannerTwo/BannerTwo';
 
 const Home = () => {
 
@@ -28,11 +29,10 @@ const Home = () => {
 <Three/>
 <Appointment/>
 <SelfCheck/>
-
+<BannerTwo/>
 <div className="section-header text-center">
     <p className="section-p text-center">Top Health Care Professionals to Solve Your Health Issues.</p>
 </div>  
-
 <DocHome/>
 <Container>
     <article id='f-box' className='text-center'>
