@@ -1,0 +1,13 @@
+.hb-banner {
+  height: 10rem;
+  width: 90vw;
+  border-radius: 0.8rem;
+  background-image: radial-gradient(circle, #fdfdfd, aqua);
+}
+.hb-center {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}

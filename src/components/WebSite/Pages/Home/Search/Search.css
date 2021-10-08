@@ -1,0 +1,15 @@
+.hb-search {
+  background-color: rgb(238, 248, 248);
+  outline: none;
+  border: 1px solid #d8d4d4;
+  height: 3rem;
+  width: 90vw;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+}
+.hbs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
