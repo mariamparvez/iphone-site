@@ -10,6 +10,7 @@ import DocHome from '../Doctors/Doctors/DocHome';
 import './FormDesign.css'
 import HomeBanner from './HomeBanner/HomeBanner';
 import SearchS from './Search/SearchS';
+import SelfCheck from '../DynamicComponents/SelfCheck/SelfCheck';
 
 const Home = () => {
 
@@ -26,6 +27,7 @@ const Home = () => {
 <Specialitites/>
 <Three/>
 <Appointment/>
+<SelfCheck/>
 
 <div className="section-header text-center">
     <p className="section-p text-center">Top Health Care Professionals to Solve Your Health Issues.</p>

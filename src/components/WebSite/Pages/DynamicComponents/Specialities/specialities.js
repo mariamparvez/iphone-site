@@ -127,7 +127,6 @@ export default class Specialitites extends Component {
   <div id='view-btn'>
   <button className="btn view-btn">View More</button>
   </div>
-
 </Link>
       </Container>
     );
