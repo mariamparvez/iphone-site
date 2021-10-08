@@ -35,7 +35,13 @@
   }
 }
 @media only screen and (max-width: 490px) {
-  #f-box {
-    display: none !important;
+  .f-box {
+    padding: 1rem 1rem 0.6rem 0;
+  }
+  .f-box p {
+    padding: 0;
+  }
+  .f-box h3 {
+    padding-bottom: 0;
   }
 }
