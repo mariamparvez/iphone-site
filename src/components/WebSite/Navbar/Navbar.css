@@ -97,12 +97,8 @@
   .nav-content h6 {
     font-size: 14px !important;
   }
-  .nav-content {
-    flex-direction: row;
-  }
   .nav-content p {
     font-size: 12px !important;
-    padding-left: 1rem;
   }
 }
 @media screen and (max-width: 1250px) {
@@ -111,7 +107,6 @@
   }
   .nav-content p {
     font-size: 10px !important;
-    padding-left: 1rem;
   }
 }
 
@@ -121,7 +116,6 @@
   }
   .nav-content p {
     font-size: 9px !important;
-    padding-left: 1rem;
   }
 }
 
@@ -213,5 +207,19 @@
     background: #fff;
     color: #242424;
     transition: 250ms;
+  }
+  .sign-up {
+    display: block;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .nav-content {
+    flex-direction: row;
+  }
+  .nav-content p {
+    padding-left: 2rem;
+  }
+  .btn-mobile {
+    background-color: aqua;
   }
 }
