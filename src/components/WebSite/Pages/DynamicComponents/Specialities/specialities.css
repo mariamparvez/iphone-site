@@ -13,6 +13,11 @@
   .speciality {
     margin-bottom: 3rem;
   }
+  .section-header h2 {
+    font-size: 1rem !important;
+    text-align: start;
+    margin: 2rem 0 1rem;
+  }
   .speicality-item {
     margin: 0.2rem;
     align-items: baseline;
