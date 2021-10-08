@@ -32,15 +32,9 @@
   max-width: 1500px;
 }
 
-.navbar-logo {
-  color: #151515;
-  justify-self: start;
-  margin-right: 20px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
+.navbar-logo img {
+  width: 60%;
+  height: auto;
 }
 
 .fa-typo3 {
@@ -91,10 +85,6 @@
 .nav-links:hover {
   transition: all 0.2s ease-out;
 }
-.fa-bars {
-  color: #151515;
-}
-
 .nav-links-mobile {
   display: none;
 }
@@ -179,26 +169,28 @@
     height: fit-content;
     border-radius: 0;
   }
-
   .navbar-logo {
     position: absolute;
     top: 0;
-    left: 0;
-    transform: translate(25%, 50%);
+    left: 8%;
+    transform: translate(20%, 80%);
   }
 
+  .fa-bars {
+    color: rgb(56, 56, 97);
+  }
   .menu-icon {
     display: block;
     position: absolute;
     top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
+    left: 0;
+    transform: translate(80%, 40%);
     font-size: 1.8rem;
     cursor: pointer;
   }
 
   .fa-times {
-    color: #151515;
+    color: rgb(56, 56, 97);
     font-size: 2rem;
   }
 
