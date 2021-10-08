@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/iphone-site/static/css/main.060154c0.chunk.css",
+    "main.css": "/iphone-site/static/css/main.2039e923.chunk.css",
     "main.js": "/iphone-site/static/js/main.d0670f62.chunk.js",
     "main.js.map": "/iphone-site/static/js/main.d0670f62.chunk.js.map",
     "runtime-main.js": "/iphone-site/static/js/runtime-main.27b99d09.js",
@@ -12,7 +12,7 @@
     "static/js/3.a350acc6.chunk.js.map": "/iphone-site/static/js/3.a350acc6.chunk.js.map",
     "index.html": "/iphone-site/index.html",
     "static/css/2.f2512455.chunk.css.map": "/iphone-site/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.060154c0.chunk.css.map": "/iphone-site/static/css/main.060154c0.chunk.css.map",
+    "static/css/main.2039e923.chunk.css.map": "/iphone-site/static/css/main.2039e923.chunk.css.map",
     "static/js/2.307644d1.chunk.js.LICENSE.txt": "/iphone-site/static/js/2.307644d1.chunk.js.LICENSE.txt",
     "static/media/01.3ffa3828.jpg": "/iphone-site/static/media/01.3ffa3828.jpg",
     "static/media/01.6fb98467.png": "/iphone-site/static/media/01.6fb98467.png",
@@ -48,6 +48,7 @@
     "static/media/4.d081b205.png": "/iphone-site/static/media/4.d081b205.png",
     "static/media/style.css": "/iphone-site/static/media/tick-icon.6da4654e.svg",
     "static/media/appstore.292c3537.png": "/iphone-site/static/media/appstore.292c3537.png",
+    "static/media/HomeBanner.css": "/iphone-site/static/media/banner-one.577f6214.svg",
     "static/media/ForWoman.css": "/iphone-site/static/media/banner.e6fde3b1.jpg",
     "static/media/blog-01.9bbda6c8.jpg": "/iphone-site/static/media/blog-01.9bbda6c8.jpg",
     "static/media/blog-02.6ab82e81.jpg": "/iphone-site/static/media/blog-02.6ab82e81.jpg",
@@ -80,7 +81,7 @@
     "static/js/runtime-main.27b99d09.js",
     "static/css/2.f2512455.chunk.css",
     "static/js/2.307644d1.chunk.js",
-    "static/css/main.060154c0.chunk.css",
+    "static/css/main.2039e923.chunk.css",
     "static/js/main.d0670f62.chunk.js"
   ]
 }
