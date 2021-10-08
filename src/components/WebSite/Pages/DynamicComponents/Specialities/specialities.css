@@ -27,10 +27,6 @@
     line-height: 16px;
     text-align: start !important;
   }
-  #img-spec {
-    padding: 1rem;
-    border-radius: 1rem;
-  }
   #img-spec img {
     width: 60%;
     height: 60%;

@@ -2,7 +2,10 @@
   height: 10rem;
   width: 90vw;
   border-radius: 0.8rem;
-  background-image: radial-gradient(circle, #fdfdfd, aqua);
+  background-image: url("../../../../assets/img/banner-one.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .hb-center {
   margin-top: 2rem;

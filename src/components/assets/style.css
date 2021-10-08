@@ -11156,8 +11156,8 @@ ul.benifits-col li i {
   flex-direction: column;
 }
 #img-spec {
-  padding: 2rem;
-  border-radius: 100%;
+  padding: 0.8rem 0.5rem;
+  border-radius: 80% !important;
   width: fit-content;
   height: auto;
   border: 0.1px solid #1515156e;
