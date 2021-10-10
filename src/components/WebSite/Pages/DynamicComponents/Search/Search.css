@@ -1,0 +1,32 @@
+.location-s {
+  background: #fdfdfd url(../../../../assets/img/location.png) no-repeat 10px
+    center;
+  line-height: 1.5;
+  font-size: 1rem;
+  background-color: #fdfdfd;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+  cursor: default;
+  outline: none;
+  padding: 10px 52px 10px 40px;
+  transition: all 200ms ease;
+  width: 22rem;
+  margin-bottom: 0.5rem;
+}
+.doctor-s {
+  background: #fdfdfd url(../../../../assets/img/search.png) no-repeat 10px
+    center;
+  background-repeat: no-repeat;
+  line-height: 1.5;
+  font-size: 1rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+  cursor: default;
+  outline: none;
+  padding: 10px 2px 10px 40px;
+  transition: all 200ms ease;
+  width: 22rem;
+}

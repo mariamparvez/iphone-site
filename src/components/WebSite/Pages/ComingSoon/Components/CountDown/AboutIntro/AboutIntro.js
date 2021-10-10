@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const AboutIntro = () => {
     return ( 
-        <main style={{padding: '0 10rem 10rem'}}>
+        <main style={{padding: '0 1rem 2rem'}}>
             <h1>About Us</h1><br/>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nequen sapiente! <br/>Dicta excepturi, dolorem blanditiis ratione reprehenderit quas incidunt. <br/>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, quasi?</p>
             <br/>

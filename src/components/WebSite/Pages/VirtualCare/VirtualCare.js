@@ -4,7 +4,7 @@ import './VirtualCare.css'
 import vBanner from '../../../assets/img/vbanner.jpg'
 import FAQ from '../DynamicComponents/FAQ/FAQ'
 import Specialitites from '../DynamicComponents/Specialities/specialities';
-import Search from '../DynamicComponents/SearchBar/app/Search';
+import Search from '../DynamicComponents/Search/Search';
 import Space from '../DynamicComponents/Space/Space';
 import Appointment from '../Appointments/AppointmentVC/Appointment';
 import DocHome from '../Doctors/Doctors/DocHome';
@@ -34,10 +34,11 @@ function VirtualCare() {
       <p className="section-p text-center">Top Online Doctors to Solve Your Health Issues.</p>
   </div> 
  <DocHome/>
-      <Row style={{padding: 0}}>
-        <img src={vBanner} style={{padding: 0}} alt="v-banner" />
-      </Row>
-  
+        <div>
+          <div className='v-care'></div>
+        </div>
+        {/* <img src={vBanner} style={{padding: 0}} alt="v-banner" /> */}
+   
     </>
   );
 }

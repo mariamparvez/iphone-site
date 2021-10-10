@@ -1,7 +1,7 @@
 import React, {useEffect}  from 'react'
 import './HomeCare.css'
 import { Container } from 'react-bootstrap'
-import Search from '../DynamicComponents/SearchBar/app/Search'
+import Search from '../DynamicComponents/Search/Search'
 
 //images
 import Disclaimer from './Disclaimer'

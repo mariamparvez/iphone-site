@@ -4,7 +4,7 @@ import './Content.css'
 
 const Content = () => {
     return ( 
-        <main id='coming-soon' style={{padding: '14rem 10rem 5rem'}}>
+        <main id='coming-soon' style={{padding: '14rem 1rem 0'}}>
             <section>
             <h1>Under <br/>Construction</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br/>Inventore sunt eos facilis dolor quia saepe dolores sint quod quidem ad.</p>
