@@ -4,9 +4,7 @@ import SlideCard from "./SlideCard";
 
 const Slide = () => {
   return ( 
-    <Container fluid>
     <Container><SlideCard/></Container>
-    </Container>
    );
 }
  
