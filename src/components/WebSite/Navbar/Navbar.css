@@ -215,8 +215,27 @@
 @media screen and (max-width: 1060px) {
   .nav-content {
     flex-direction: row;
+    padding-left: 0.2em;
   }
   .nav-content p {
-    padding-left: 2rem;
+    padding-left: 0.8rem;
+    font-weight: 100;
+  }
+  .nav-content h6 p {
+    font-size: 600;
+  }
+  .nav-icon {
+    color: rgb(133, 133, 134);
+    font-family: practicon;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin: 0 0.8rem;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: 0.2em;
   }
 }

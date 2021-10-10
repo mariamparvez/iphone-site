@@ -21,7 +21,7 @@ import SpecialityList from '../Pages/DynamicComponents/Specialities/SpecialityLi
 import TestDetails from '../Pages/Diagnostics/TestDetails/TestDetails';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faBriefcaseMedical, faCapsules, faFemale, faHeartbeat, faMobileAlt, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { Button } from "./Button";
 import {
   BrowserRouter as Router,
@@ -70,6 +70,7 @@ function Navbar() {
         
         <li className='nav-item'><Link to='/home-care' className='nav-links' onClick={closeMobileMenu}>
         <div className='nav-content'>
+          <FontAwesomeIcon icon={faHeartbeat} className='nav-icon'/>
             <h6>Home Care</h6>
             <p>Doctor at Home</p>
         </div>
@@ -77,6 +78,7 @@ function Navbar() {
 
         <li className='nav-item'><Link to='/virtual-care' className='nav-links' onClick={closeMobileMenu}>
         <div className='nav-content'>
+          <FontAwesomeIcon icon={faMobileAlt} className='nav-icon'/>
             <h6>Virtual Care</h6>
             <p>Video Consultations</p>
         </div>
@@ -84,6 +86,7 @@ function Navbar() {
 
         <li className='nav-item'><Link to='/coming-soon' className='nav-links' onClick={closeMobileMenu}>
         <div className='nav-content'>
+          <FontAwesomeIcon icon={faCapsules} className='nav-icon'/>
             <h6>Pharmacy</h6>
             <p>medatu.shop</p>
         </div>
@@ -91,6 +94,7 @@ function Navbar() {
 
         <li className='nav-item'><Link to='/diagnostics' className='nav-links' onClick={closeMobileMenu}>
         <div className='nav-content'>
+          <FontAwesomeIcon icon={faBriefcaseMedical} className='nav-icon'/>
             <h6>Diagnostics</h6>
             <p>Tests and Checkups</p>
         </div>
@@ -98,6 +102,7 @@ function Navbar() {
 
         <li className='nav-item'><Link to='/for-women' className='nav-links' onClick={closeMobileMenu}>
         <div className='nav-content'>  
+        <FontAwesomeIcon icon={faFemale} className='nav-icon'/>
             <h6>For Women</h6>
             <p>Complete Women care</p>
         </div> 

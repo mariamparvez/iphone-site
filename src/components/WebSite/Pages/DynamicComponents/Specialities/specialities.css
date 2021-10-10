@@ -46,4 +46,7 @@
     padding: 0.1rem !important;
     font-size: 12px !important;
   }
+  .slick-next:before {
+    display: none;
+  }
 }
