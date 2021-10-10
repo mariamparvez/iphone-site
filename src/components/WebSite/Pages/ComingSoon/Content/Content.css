@@ -11,5 +11,14 @@
 }
 #coming-soon {
   width: 100vw;
-  height: 70vh;
+  height: 76vh;
+}
+.cs-input {
+  outline: none;
+  width: 16.4rem;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: rgb(234, 241, 239);
+  padding: 0.5rem;
+  margin-right: 1rem;
 }
