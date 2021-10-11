@@ -1,6 +1,7 @@
 import React,{useEffect} from 'react';
 import { Container } from 'react-bootstrap';
 import Specialitites from '../DynamicComponents/Specialities/specialities';
+import OurService from '../DynamicComponents/OurService/OurService';
 import Feedback from './FeedBack';
 import Blog from '../Blog/Blog';
 import Three from '../DynamicComponents/Three/Three';
@@ -25,6 +26,7 @@ const Home = () => {
 <Space/>
 <HomeBanner/>
 <SearchS/>
+<OurService/>
 <Specialitites/>
 <Three/>
 <Appointment/>

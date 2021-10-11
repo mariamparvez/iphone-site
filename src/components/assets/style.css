@@ -10869,7 +10869,6 @@ ul.benifits-col li i {
     padding-left: 22px !important;
   }
   .speicality-item p {
-    margin: 10px;
     font-size: 14px;
   }
 }
@@ -11149,7 +11148,7 @@ ul.benifits-col li i {
 }
 .speicality-item {
   width: fit-content !important;
-  margin: 2em;
+  margin: 1rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
