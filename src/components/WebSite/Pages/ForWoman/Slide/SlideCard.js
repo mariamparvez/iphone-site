@@ -11,7 +11,7 @@ const SlideCard = () => {
                         </div>
                         <div className='fw-s-deet'>
                         <h3>{item.hOne}</h3>
-                        <p>{item.para}</p>
+                        <p style={{marginBottom:0}}>{item.para}</p>
                         </div>
                         </article>
                     )

@@ -5,6 +5,7 @@ import Slide from './Slide/Slide';
 import WHI from './WHI/WHI';
 import Appointment from '../Appointments/AppointmentW/Appointment';
 import Space from '../DynamicComponents/Space/Space';
+import Services from '../DynamicComponents/Services/Services';
 
 const ForWoman = () => {
     useEffect(() => {
@@ -25,6 +26,8 @@ const ForWoman = () => {
 <Appointment/>
 <WHI/>
 <Blog/>
+
+<Services/>
 
 </main>
      );
