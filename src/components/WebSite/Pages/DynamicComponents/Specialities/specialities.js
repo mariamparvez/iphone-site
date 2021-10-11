@@ -16,7 +16,10 @@ export default class Specialitites extends Component {
     var settings = {
       dots: false,
       infinite: true,
-      speed: 500,
+      autoplay: true,
+      speed: 3000,
+      autoplaySpeed: 2000,
+      cssEase: "linear",
       slidesToShow: 6,
       slidesToScroll: 0,
       initialSlide: 0,
