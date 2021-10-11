@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/iphone-site/static/css/main.ae92c9fd.chunk.css",
-    "main.js": "/iphone-site/static/js/main.e017fd58.chunk.js",
-    "main.js.map": "/iphone-site/static/js/main.e017fd58.chunk.js.map",
-    "runtime-main.js": "/iphone-site/static/js/runtime-main.a2db6cec.js",
-    "runtime-main.js.map": "/iphone-site/static/js/runtime-main.a2db6cec.js.map",
+    "main.css": "/iphone-site/static/css/main.19581984.chunk.css",
+    "main.js": "/iphone-site/static/js/main.d446797a.chunk.js",
+    "main.js.map": "/iphone-site/static/js/main.d446797a.chunk.js.map",
+    "runtime-main.js": "/iphone-site/static/js/runtime-main.cb561c33.js",
+    "runtime-main.js.map": "/iphone-site/static/js/runtime-main.cb561c33.js.map",
     "static/css/2.f2512455.chunk.css": "/iphone-site/static/css/2.f2512455.chunk.css",
-    "static/js/2.33e1b0f9.chunk.js": "/iphone-site/static/js/2.33e1b0f9.chunk.js",
-    "static/js/2.33e1b0f9.chunk.js.map": "/iphone-site/static/js/2.33e1b0f9.chunk.js.map",
-    "static/js/3.ee78b910.chunk.js": "/iphone-site/static/js/3.ee78b910.chunk.js",
-    "static/js/3.ee78b910.chunk.js.map": "/iphone-site/static/js/3.ee78b910.chunk.js.map",
+    "static/js/2.15002ed0.chunk.js": "/iphone-site/static/js/2.15002ed0.chunk.js",
+    "static/js/2.15002ed0.chunk.js.map": "/iphone-site/static/js/2.15002ed0.chunk.js.map",
+    "static/js/3.8805ccbc.chunk.js": "/iphone-site/static/js/3.8805ccbc.chunk.js",
+    "static/js/3.8805ccbc.chunk.js.map": "/iphone-site/static/js/3.8805ccbc.chunk.js.map",
     "index.html": "/iphone-site/index.html",
     "static/css/2.f2512455.chunk.css.map": "/iphone-site/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.ae92c9fd.chunk.css.map": "/iphone-site/static/css/main.ae92c9fd.chunk.css.map",
-    "static/js/2.33e1b0f9.chunk.js.LICENSE.txt": "/iphone-site/static/js/2.33e1b0f9.chunk.js.LICENSE.txt",
+    "static/css/main.19581984.chunk.css.map": "/iphone-site/static/css/main.19581984.chunk.css.map",
+    "static/js/2.15002ed0.chunk.js.LICENSE.txt": "/iphone-site/static/js/2.15002ed0.chunk.js.LICENSE.txt",
     "static/media/01.3ffa3828.jpg": "/iphone-site/static/media/01.3ffa3828.jpg",
     "static/media/01.6fb98467.png": "/iphone-site/static/media/01.6fb98467.png",
     "static/media/01.f18d057e.png": "/iphone-site/static/media/01.f18d057e.png",
@@ -57,6 +57,7 @@
     "static/media/blog-2.a193addc.jpg": "/iphone-site/static/media/blog-2.a193addc.jpg",
     "static/media/book-doc-01.7dc03ad3.jpg": "/iphone-site/static/media/book-doc-01.7dc03ad3.jpg",
     "static/media/corona.d2183405.svg": "/iphone-site/static/media/corona.d2183405.svg",
+    "static/media/covid-test.6ba526ba.svg": "/iphone-site/static/media/covid-test.6ba526ba.svg",
     "static/media/covid.4b5c37a0.svg": "/iphone-site/static/media/covid.4b5c37a0.svg",
     "static/media/diabities.4694567f.svg": "/iphone-site/static/media/diabities.4694567f.svg",
     "static/media/doctor-thumb-02.a916acec.jpg": "/iphone-site/static/media/doctor-thumb-02.a916acec.jpg",
@@ -75,6 +76,7 @@
     "static/media/home.ca69c127.jpg": "/iphone-site/static/media/home.ca69c127.jpg",
     "static/media/hospital.a772aef8.svg": "/iphone-site/static/media/hospital.a772aef8.svg",
     "static/media/logo.9cf8c994.png": "/iphone-site/static/media/logo.9cf8c994.png",
+    "static/media/medical-checkup.fc745ae1.svg": "/iphone-site/static/media/medical-checkup.fc745ae1.svg",
     "static/media/medicine.6e35e2e3.svg": "/iphone-site/static/media/medicine.6e35e2e3.svg",
     "static/media/migrain.ca12eb6a.svg": "/iphone-site/static/media/migrain.ca12eb6a.svg",
     "static/media/aboutus.css": "/iphone-site/static/media/one.5f14b21f.jpg",
@@ -87,10 +89,10 @@
     "static/media/woman-app.15f10599.jpg": "/iphone-site/static/media/woman-app.15f10599.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a2db6cec.js",
+    "static/js/runtime-main.cb561c33.js",
     "static/css/2.f2512455.chunk.css",
-    "static/js/2.33e1b0f9.chunk.js",
-    "static/css/main.ae92c9fd.chunk.css",
-    "static/js/main.e017fd58.chunk.js"
+    "static/js/2.15002ed0.chunk.js",
+    "static/css/main.19581984.chunk.css",
+    "static/js/main.d446797a.chunk.js"
   ]
 }
