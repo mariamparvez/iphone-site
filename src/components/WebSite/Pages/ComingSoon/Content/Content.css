@@ -11,7 +11,8 @@
 }
 #coming-soon {
   width: 100vw;
-  height: 76vh;
+  height: fit-content;
+  margin-bottom: 4rem;
 }
 .cs-input {
   outline: none;
