@@ -56,8 +56,8 @@ export default class OurService extends Component {
   <article className='s-items'>
     <aside className="speicality-item">
       <Link to='/doctors'> 
-        <div id='img-spec'>
-          <img src={osOne} alt="Speciality"/> 
+        <div id='img-os'>
+          <img width={94} height={94} src={osOne} alt="Speciality"/> 
         </div>
       </Link>
       <p>Covid 19</p>
@@ -67,8 +67,8 @@ export default class OurService extends Component {
   <article className='s-items'>
     <aside className="speicality-item">
       <Link to='/doctors'> 
-        <div id='img-spec'>
-          <img src={osTwo} alt="Speciality"/> 
+        <div id='img-os'>
+          <img width={94} height={94} src={osTwo} alt="Speciality"/> 
         </div>
       </Link>
       <p>Hospital</p>
@@ -78,8 +78,8 @@ export default class OurService extends Component {
   <article className='s-items'>
     <aside className="speicality-item">
       <Link to='/doctors'> 
-        <div id='img-spec'>
-          <img src={osThree} alt="Speciality"/> 
+        <div id='img-os'>
+          <img width={94} height={94} src={osThree} alt="Speciality"/> 
         </div>
       </Link>
       <p>Medicine</p>
@@ -89,8 +89,8 @@ export default class OurService extends Component {
   <article className='s-items'>
     <aside className="speicality-item">
       <Link to='/doctors'> 
-        <div id='img-spec'>
-          <img src={osFour} alt="Speciality"/> 
+        <div id='img-os'>
+          <img width={94} height={94} src={osFour} alt="Speciality"/> 
         </div>
       </Link>
       <p>Others</p>

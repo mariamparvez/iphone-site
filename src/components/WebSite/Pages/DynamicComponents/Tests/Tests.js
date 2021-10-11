@@ -25,7 +25,7 @@ function Tests() {
             {data.map(item => {
                 return(
                 <div className='tests-box'>
-                    <img src={item.img} alt="" />
+                    <img src={item.img} alt="imgtest"/>
                     <h6>{item.header}</h6>
                     <p>{item.text}</p>
                 </div>

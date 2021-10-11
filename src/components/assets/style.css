@@ -11156,10 +11156,8 @@ ul.benifits-col li i {
 }
 #img-spec {
   padding: 0.8rem 0.5rem;
-  border-radius: 80% !important;
-  width: fit-content;
-  height: auto;
-  border: 0.1px solid #1515156e;
+  border-radius: 20% !important;
+  border: 0.1px solid #d6d5d5;
 }
 .doc-carousel {
   display: flex;

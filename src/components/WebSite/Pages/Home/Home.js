@@ -29,15 +29,18 @@ const Home = () => {
 <SearchS/>
 <OurService/>
 <Tests/>
+<div className="section-header text-center">
+    <p className="section-p text-center">Top Health Care Professionals to Solve Your Health Issues.</p>
+</div>  
+<DocHome/>
+
+
 <Specialitites/>
 <Three/>
 <Appointment/>
 <SelfCheck/>
 <BannerTwo/>
-<div className="section-header text-center">
-    <p className="section-p text-center">Top Health Care Professionals to Solve Your Health Issues.</p>
-</div>  
-<DocHome/>
+
 <Container>
     <article id='f-box' className='text-center'>
     <h3 style={{paddingTop: '2rem'}}>What People Say about Us</h3>

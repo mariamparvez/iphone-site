@@ -20,9 +20,14 @@
     line-height: 16px;
     text-align: start !important;
   }
-  #img-spec img {
-    width: 60%;
-    height: 60%;
+  #img-os {
+    padding: 0.8rem 0.5rem;
+    border-radius: 100% !important;
+    border: 0.1px solid #d1cdcd;
+  }
+  #img-os img {
+    width: 90%;
+    height: 90%;
   }
   .slick-next,
   .slick-prev {
