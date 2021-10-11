@@ -10,6 +10,11 @@
   width: 20vw;
   height: auto;
 }
+.doc-widget {
+  background-color: rgb(235, 244, 245);
+  padding-bottom: 0.2rem;
+  margin-top: 0.4rem;
+}
 .profile-widget:hover {
   border: none;
   box-shadow: 2px 2px 13px #e6e6e6;

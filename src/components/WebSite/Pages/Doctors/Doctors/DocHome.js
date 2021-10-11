@@ -32,7 +32,8 @@ async function fetchData() {
 fetchData();
     }, [])
     return (
-        <Container>
+        <div className='doc-widget'>
+ <Container>
             <article id='view-btn'>
 
             <article style={{display: 'flex'}}>
@@ -70,5 +71,6 @@ fetchData();
         
     </article>
 </Container>
+        </div>
     )
 }
