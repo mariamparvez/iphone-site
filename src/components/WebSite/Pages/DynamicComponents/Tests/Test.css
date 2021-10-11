@@ -1,0 +1,24 @@
+.tests-box {
+  background-color: rgb(243, 243, 243);
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 0.6rem;
+}
+.tests-box h6 {
+  margin: 0.5rem 0 0;
+}
+.tests-box p {
+  margin-bottom: 0;
+}
+.tests {
+  display: flex;
+  justify-content: space-around;
+}
+.tests-vm {
+  cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 2rem;
+  flex-direction: column;
+  color: rgb(122, 163, 201);
+}

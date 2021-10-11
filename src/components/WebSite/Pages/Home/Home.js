@@ -13,6 +13,7 @@ import HomeBanner from './HomeBanner/HomeBanner';
 import SearchS from './Search/SearchS';
 import SelfCheck from '../DynamicComponents/SelfCheck/SelfCheck';
 import BannerTwo from './BannerTwo/BannerTwo';
+import Tests from '../DynamicComponents/Tests/Tests';
 
 const Home = () => {
 
@@ -27,6 +28,7 @@ const Home = () => {
 <HomeBanner/>
 <SearchS/>
 <OurService/>
+<Tests/>
 <Specialitites/>
 <Three/>
 <Appointment/>
