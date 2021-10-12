@@ -1,7 +1,5 @@
 import React, {useEffect} from 'react';
-import { Row } from 'react-bootstrap';
 import './VirtualCare.css'
-import vBanner from '../../../assets/img/vbanner.jpg'
 import FAQ from '../DynamicComponents/FAQ/FAQ'
 import Specialitites from '../DynamicComponents/Specialities/specialities';
 import Search from '../DynamicComponents/Search/Search';
