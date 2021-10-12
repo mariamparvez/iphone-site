@@ -49,7 +49,7 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 60vw;
+  width: 50vw;
   justify-content: center;
   margin: 0;
 }
@@ -180,13 +180,12 @@
     top: 0;
     left: 0;
     transform: translate(120%, 80%);
-    font-size: 1.3rem;
+    font-size: 1.4rem !important;
     cursor: pointer;
   }
 
   .fa-times {
-    color: rgb(56, 56, 97);
-    font-size: 2rem;
+    color: rgb(52, 52, 75);
   }
 
   .nav-links-mobile {
@@ -230,7 +229,7 @@
     margin: 0 0.8rem 0 0;
   }
   .nav-icon {
-    color: rgb(133, 133, 134);
+    color: rgb(80, 80, 82);
     font-family: practicon;
     font-style: normal;
     display: inline-block;

@@ -87,6 +87,7 @@ function Navbar() {
           <FontAwesomeIcon icon={faMobileAlt} className='nav-icon'/>
           </div>
        
+
             <h6>Virtual Care</h6>
             <p>Video Consultations</p>
         </div>
@@ -98,7 +99,6 @@ function Navbar() {
           <div className='nav-i-design'>
           <FontAwesomeIcon icon={faCapsules} className='nav-icon'/>
           </div>
-  
             <h6>Pharmacy</h6>
             <p>medatu.shop</p>
         </div>
