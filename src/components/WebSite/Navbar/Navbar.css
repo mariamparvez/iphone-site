@@ -43,6 +43,7 @@
 }
 
 .nav-menu {
+  padding-left: 0.3rem;
   display: grid;
   grid-template-columns: repeat(5, auto);
   grid-gap: 10px;
@@ -167,7 +168,7 @@
     position: absolute;
     top: 0;
     left: 8%;
-    transform: translate(20%, 80%);
+    transform: translate(10%, 80%);
   }
 
   .fa-bars {
@@ -178,8 +179,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(80%, 40%);
-    font-size: 1.8rem;
+    transform: translate(120%, 80%);
+    font-size: 1.3rem;
     cursor: pointer;
   }
 
@@ -224,14 +225,17 @@
   .nav-content h6 p {
     font-size: 600;
   }
+  .nav-i-design {
+    width: 2rem;
+    margin: 0 0.8rem 0 0;
+  }
   .nav-icon {
     color: rgb(133, 133, 134);
     font-family: practicon;
     font-style: normal;
     display: inline-block;
     text-decoration: inherit;
-    width: 1em;
-    margin: 0 0.8rem;
+
     text-align: center;
     font-variant: normal;
     text-transform: none;

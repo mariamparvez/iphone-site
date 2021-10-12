@@ -70,7 +70,11 @@ function Navbar() {
         
         <li className='nav-item'><Link to='/home-care' className='nav-links' onClick={closeMobileMenu}>
         <div className='nav-content'>
+
+          <div className='nav-i-design'>
           <FontAwesomeIcon icon={faHeartbeat} className='nav-icon'/>
+          </div>
+         
             <h6>Home Care</h6>
             <p>Doctor at Home</p>
         </div>
@@ -78,7 +82,11 @@ function Navbar() {
 
         <li className='nav-item'><Link to='/virtual-care' className='nav-links' onClick={closeMobileMenu}>
         <div className='nav-content'>
+
+          <div className='nav-i-design'>
           <FontAwesomeIcon icon={faMobileAlt} className='nav-icon'/>
+          </div>
+       
             <h6>Virtual Care</h6>
             <p>Video Consultations</p>
         </div>
@@ -86,7 +94,11 @@ function Navbar() {
 
         <li className='nav-item'><Link to='/coming-soon' className='nav-links' onClick={closeMobileMenu}>
         <div className='nav-content'>
+
+          <div className='nav-i-design'>
           <FontAwesomeIcon icon={faCapsules} className='nav-icon'/>
+          </div>
+  
             <h6>Pharmacy</h6>
             <p>medatu.shop</p>
         </div>
@@ -94,15 +106,23 @@ function Navbar() {
 
         <li className='nav-item'><Link to='/diagnostics' className='nav-links' onClick={closeMobileMenu}>
         <div className='nav-content'>
+
+          <div className='nav-i-design'>
           <FontAwesomeIcon icon={faBriefcaseMedical} className='nav-icon'/>
+          </div>
+     
             <h6>Diagnostics</h6>
             <p>Tests and Checkups</p>
         </div>
         </Link></li>
 
         <li className='nav-item'><Link to='/for-women' className='nav-links' onClick={closeMobileMenu}>
-        <div className='nav-content'>  
-        <FontAwesomeIcon icon={faFemale} className='nav-icon'/>
+        <div className='nav-content'>
+
+          <div className='nav-i-design'>
+          <FontAwesomeIcon icon={faFemale} className='nav-icon'/>
+            </div>  
+      
             <h6>For Women</h6>
             <p>Complete Women care</p>
         </div> 

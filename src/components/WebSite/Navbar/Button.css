@@ -17,17 +17,16 @@
 }
 
 .btn--outline {
-  background-color: #373b79 !important;
-  color: #fdfdfd !important;
-  padding: 8px 20px;
-  border: 1px solid var(--primary);
-  transition: all 0.3s ease-out;
+  background-color: #fdfdfd !important;
+  color: #373b79 !important;
+  border: #373b79 0.2px solid !important;
+  padding: 6px 14px !important;
+  width: 90px;
   transform: translate(140%, 0);
 }
 
 .btn--medium {
-  padding: 8px 20px;
-  font-size: 18px;
+  font-size: 14px !important;
 }
 
 .btn--large {
@@ -38,8 +37,8 @@
 .btn--large:hover,
 .btn--medium:hover {
   transition: all 0.3s ease-out;
-  background: #fdfdfd !important;
-  color: #242424 !important;
+  background: #373b79 !important;
+  color: #fdfdfd !important;
   border: 1px solid #151515 !important;
   transition: 250ms;
 }
