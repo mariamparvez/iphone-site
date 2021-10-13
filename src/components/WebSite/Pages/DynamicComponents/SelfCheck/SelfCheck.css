@@ -17,8 +17,6 @@
 .scu-p {
   padding: 0.6rem 0 0.6rem 0.2rem;
   width: 5.8rem;
-  box-shadow: 0 4px 8px 0 rgba(134, 134, 134, 0.1),
-    0 6px 20px 0 rgba(134, 134, 134, 0.09);
 }
 .sc-box {
   flex: wrap;
@@ -27,6 +25,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(134, 134, 134, 0.1),
+    0 6px 20px 0 rgba(134, 134, 134, 0.09);
 }
 .sc-box img {
   border-radius: 0.4rem 0.4rem 0 0;
