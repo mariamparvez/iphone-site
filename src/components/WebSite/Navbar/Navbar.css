@@ -234,4 +234,23 @@
     line-height: 1em;
     margin-left: 0.2em;
   }
+  .r-navbox {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 1rem;
+    flex-direction: column;
+  }
+  .r-navbox li {
+    width: 90vw;
+    text-align: start;
+    padding: 1rem;
+    border-bottom: 0.3px solid #e7e4e4;
+  }
+  .s-navbox {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgb(228, 236, 236);
+    margin: 1rem;
+  }
 }

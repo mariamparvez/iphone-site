@@ -12,7 +12,7 @@
   display: flex;
   align-items: baseline;
   flex-direction: column;
-  padding: 8%;
+  padding: 8% 10%;
   margin: 0 auto;
 }
 .hb-text {

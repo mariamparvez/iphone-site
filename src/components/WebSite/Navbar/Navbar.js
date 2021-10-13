@@ -123,12 +123,33 @@ function Navbar() {
         </div> 
         </Link></li>
 
-        <li>
+        <li className='s-navbox'>
           <p>Information for your health and wellness</p>
+          <button type="button" class="btn btn-success">Know More</button>
         </li>
 
-        
-        
+      <div className='r-navbox'>
+        <li>
+        Medical records
+        </li>
+
+        <li>
+        Medatu for Businesses
+        </li>
+
+        <li>
+        Contact us
+        </li>
+
+        <li>
+        Terms of use
+        </li>
+
+        <li>
+        Privacy policy
+        </li>
+      </div>
+
       </ul>
              {button && <Button buttonStyle='btn--outline'>Sign In</Button>}
          </div>
