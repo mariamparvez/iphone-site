@@ -17,6 +17,7 @@
 .scu-p {
   padding: 0.6rem 0 0.6rem 0.2rem;
   width: 5.8rem;
+  border-radius: 0 0 0.4rem 0.4rem;
 }
 .sc-box {
   flex: wrap;

@@ -62,7 +62,6 @@
   margin: 0 !important;
   text-align: start;
   font-weight: 480;
-  font-size: 18px !important;
 }
 .nav-content p {
   font-size: 12px !important;
@@ -108,15 +107,6 @@
   }
   .nav-content p {
     font-size: 10px !important;
-  }
-}
-
-@media screen and (max-width: 1080px) {
-  .nav-content h6 {
-    font-size: 11px !important;
-  }
-  .nav-content p {
-    font-size: 9px !important;
   }
 }
 
@@ -218,12 +208,14 @@
     padding-left: 0.2em;
   }
   .nav-content p {
-    padding-left: 0.8rem;
+    padding-left: 0.4rem;
     font-weight: 100;
-    font-size: 600;
   }
   .nav-content h6 {
-    font-size: 0.8rem !important;
+    font-size: 14px !important;
+  }
+  .nav-content p {
+    font-size: 14px !important;
   }
   .nav-i-design {
     width: 2rem;
