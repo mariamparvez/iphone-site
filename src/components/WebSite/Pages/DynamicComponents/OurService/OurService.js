@@ -3,10 +3,9 @@ import Slider from "react-slick";
 import './OurService.css'
 import { Link } from "react-router-dom";
 
-import osOne from "../../../../assets/img/our-service/corona.svg";
-import osTwo from "../../../../assets/img/our-service/hospital.svg";
-import osThree from "../../../../assets/img/our-service/medicine.svg";
-import osFour from "../../../../assets/img/our-service/others.svg";
+import OsOne from '../../../../assets/img/os-img/1.jpg'
+import OsTwo from '../../../../assets/img/os-img/2.jpg'
+import OsThree from '../../../../assets/img/os-img/3.jpg'
 import { Container } from "react-bootstrap";
 
 export default class OurService extends Component {
@@ -39,8 +38,8 @@ export default class OurService extends Component {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 4,
-            slidesToScroll: 4
+            slidesToShow: 2,
+            slidesToScroll: 2
           }
         }
       ]
@@ -53,48 +52,25 @@ export default class OurService extends Component {
         </div>
         <Slider {...settings}>
 
-  <article className='s-items'>
-    <aside className="speicality-item">
-      <Link to='/doctors'> 
-        <div id='img-os'>
-          <img width={94} height={94} src={osOne} alt="Speciality"/> 
-        </div>
-      </Link>
+  <article>
+    <aside className='os-box'>
+      <img className='os-img' src={OsOne} width={120} height={120} alt="os-one" />
       <p>Covid 19</p>
-      </aside>
+    </aside>
   </article>
 
-  <article className='s-items'>
-    <aside className="speicality-item">
-      <Link to='/doctors'> 
-        <div id='img-os'>
-          <img width={94} height={94} src={osTwo} alt="Speciality"/> 
-        </div>
-      </Link>
-      <p>Hospital</p>
-      </aside>
-  </article>
-
-  <article className='s-items'>
-    <aside className="speicality-item">
-      <Link to='/doctors'> 
-        <div id='img-os'>
-          <img width={94} height={94} src={osThree} alt="Speciality"/> 
-        </div>
-      </Link>
+  <article>
+    <aside className='os-box'>
+      <img className='os-img' src={OsTwo} width={120} height={120} alt="os-one" />
       <p>Medicine</p>
-      </aside>
+    </aside>
   </article>
 
-  <article className='s-items'>
-    <aside className="speicality-item">
-      <Link to='/doctors'> 
-        <div id='img-os'>
-          <img width={94} height={94} src={osFour} alt="Speciality"/> 
-        </div>
-      </Link>
-      <p>Others</p>
-      </aside>
+  <article>
+    <aside className='os-box'>
+      <img className='os-img' src={OsThree} width={120} height={120} alt="os-one" />
+      <p>Hospital</p>
+    </aside>
   </article>
 
 </Slider>

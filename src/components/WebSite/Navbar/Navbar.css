@@ -220,9 +220,10 @@
   .nav-content p {
     padding-left: 0.8rem;
     font-weight: 100;
-  }
-  .nav-content h6 p {
     font-size: 600;
+  }
+  .nav-content h6 {
+    font-size: 0.8rem !important;
   }
   .nav-i-design {
     width: 2rem;
