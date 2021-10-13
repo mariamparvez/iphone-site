@@ -48,7 +48,7 @@ export default class OurService extends Component {
       <Container className='speciality'>
       
         <div className="section-header text-center">
-        <h2>Our Service</h2>
+        <h2>Our Services</h2>
         </div>
         <Slider {...settings}>
 
