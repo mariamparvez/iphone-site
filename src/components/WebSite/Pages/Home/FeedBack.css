@@ -44,4 +44,11 @@
   .f-box h3 {
     padding-bottom: 0;
   }
+  .f-content p {
+    width: 19rem;
+  }
+  .slick-next,
+  .slick-prev {
+    display: none;
+  }
 }

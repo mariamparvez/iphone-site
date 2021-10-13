@@ -74,11 +74,7 @@ function Navbar() {
           <div className='nav-i-design'>
           <FontAwesomeIcon icon={faHeartbeat} className='nav-icon'/>
           </div>
-         
-         <div className='headers-nav'>
-         <h6>Home Care-</h6>
-         </div>
-        
+            <h6>Home Care-</h6>
             <p>Doctor at Home</p>
         </div>
         </Link></li>
@@ -89,11 +85,7 @@ function Navbar() {
           <div className='nav-i-design'>
           <FontAwesomeIcon icon={faMobileAlt} className='nav-icon'/>
           </div>
-       
-<div className='headers-nav'>
-<h6>Virtual Care-</h6>
-</div>
-           
+            <h6>Virtual Care-</h6>
             <p>Video Consultations</p>
         </div>
         </Link></li>
@@ -104,11 +96,7 @@ function Navbar() {
           <div className='nav-i-design'>
           <FontAwesomeIcon icon={faCapsules} className='nav-icon'/>
           </div>
-
-          <div className='headers-nav'>
           <h6>Pharmacy-</h6>
-          </div>
-           
             <p>medatu.shop</p>
         </div>
         </Link></li>
@@ -119,11 +107,7 @@ function Navbar() {
           <div className='nav-i-design'>
           <FontAwesomeIcon icon={faBriefcaseMedical} className='nav-icon'/>
           </div>
-     
-     <div className='headers-nav'>
-     <h6>Diagnostics-</h6>
-     </div>
-            
+            <h6>Diagnostics-</h6>   
             <p>Tests and Checkups</p>
         </div>
         </Link></li>
@@ -134,11 +118,7 @@ function Navbar() {
           <div className='nav-i-design'>
           <FontAwesomeIcon icon={faFemale} className='nav-icon'/>
             </div>  
-      
-      <div className='headers-nav'>
-      <h6>For Women-</h6>
-      </div>
-            
+            <h6>For Women-</h6>
             <p>Complete Women care</p>
         </div> 
         </Link></li>

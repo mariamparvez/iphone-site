@@ -2,10 +2,21 @@
   height: 10rem;
   width: 90vw;
   border-radius: 0.8rem;
-  background-image: url("../../../../assets/img/banner-one.svg");
+  background-image: url("../../../../assets/img/home-banner.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+}
+.hb-content {
+  justify-content: center;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  padding: 8%;
+  margin: 0 auto;
+}
+.hb-text {
+  color: #fdfdfd;
 }
 .hb-center {
   margin-top: 2rem;

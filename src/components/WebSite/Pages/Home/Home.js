@@ -4,16 +4,14 @@ import Specialitites from '../DynamicComponents/Specialities/specialities';
 import OurService from '../DynamicComponents/OurService/OurService';
 import Feedback from './FeedBack';
 import Blog from '../Blog/Blog';
-import Three from '../DynamicComponents/Three/Three';
 import Appointment from '../Appointments/Appointment/Appointment';
 import Space from '../DynamicComponents/Space/Space';
 import DocHome from '../Doctors/Doctors/DocHome';
-import './FormDesign.css'
 import HomeBanner from './HomeBanner/HomeBanner';
-import SearchS from './Search/SearchS';
 import SelfCheck from '../DynamicComponents/SelfCheck/SelfCheck';
 import BannerTwo from './BannerTwo/BannerTwo';
 import Tests from '../DynamicComponents/Tests/Tests';
+import Search from '../DynamicComponents/Search/Search';
 
 const Home = () => {
 
@@ -25,8 +23,8 @@ const Home = () => {
         <>
 <main className="main-wrapper">
 <Space/>
+<Search/>
 <HomeBanner/>
-<SearchS/>
 <OurService/>
 <Tests/>
 
@@ -38,7 +36,6 @@ const Home = () => {
 
 <Specialitites/>
 <Appointment/>
-<Three/>
 
 
 <BannerTwo/>

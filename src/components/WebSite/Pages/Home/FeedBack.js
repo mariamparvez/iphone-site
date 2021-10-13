@@ -8,10 +8,7 @@ export default class FeedBack extends Component {
     const settings = {
       dots: false,
       infinite: true,
-      autoplay: true,
-      speed: 2000,
-      autoplaySpeed: 6000,
-      cssEase: "linear",
+      speed: 400,
       slidesToShow: 1,
       slidesToScroll: 1,
     };

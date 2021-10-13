@@ -3,7 +3,6 @@ import './Diagnostics.css'
 import PosterCard from '../Poster/PosterCard';
 import { Link } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
-import Search from '../../DynamicComponents/SearchBar/app/Search';
 import Carousel from '../Components/Carousel';
 import PopC from './PopC/PopC';
 import Space from '../../DynamicComponents/Space/Space';
@@ -13,6 +12,7 @@ import iconOne from "../../../../assets/img/specialities/svg/1.svg";
 import iconTwo from "../../../../assets/img/specialities/svg/2.svg";
 import iconThree from "../../../../assets/img/specialities/svg/3.svg";
 import TopT from './TopT/TopT';
+import Search from '../../DynamicComponents/Search/Search';
 
 
 
@@ -26,7 +26,7 @@ const Diagnostics = () => {
 		<Space/>
 		<Container>
 			
-		<section style={{paddingTop: '2rem'}}><Search/></section>
+		<section style={{paddingTop: '2rem'}}><Search/> </section>
   		<Carousel/>
 		</Container>	
 		
