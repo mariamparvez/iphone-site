@@ -54,21 +54,21 @@ export default class OurService extends Component {
 
   <article>
     <aside className='os-box'>
-      <img className='os-img' src={OsOne} width={120} height={120} alt="os-one" />
+      <img className='os-img' src={OsOne} width={160} height={160} alt="os-one" />
       <p>Covid 19</p>
     </aside>
   </article>
 
   <article>
     <aside className='os-box'>
-      <img className='os-img' src={OsTwo} width={120} height={120} alt="os-one" />
+      <img className='os-img' src={OsTwo} width={160} height={160} alt="os-one" />
       <p>Medicine</p>
     </aside>
   </article>
 
   <article>
     <aside className='os-box'>
-      <img className='os-img' src={OsThree} width={120} height={120} alt="os-one" />
+      <img className='os-img' src={OsThree} width={160} height={160} alt="os-one" />
       <p>Hospital</p>
     </aside>
   </article>
