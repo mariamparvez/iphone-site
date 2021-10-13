@@ -122,6 +122,12 @@ function Navbar() {
             <p>Complete Women care</p>
         </div> 
         </Link></li>
+
+        <li>
+          <p>Information for your health and wellness</p>
+        </li>
+
+        
         
       </ul>
              {button && <Button buttonStyle='btn--outline'>Sign In</Button>}
