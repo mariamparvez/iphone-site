@@ -16,10 +16,7 @@ export default class Specialitites extends Component {
     var settings = {
       dots: false,
       infinite: true,
-      autoplay: true,
-      speed: 3000,
-      autoplaySpeed: 2000,
-      cssEase: "linear",
+      speed: 500,
       slidesToShow: 6,
       slidesToScroll: 0,
       initialSlide: 0,
@@ -36,8 +33,8 @@ export default class Specialitites extends Component {
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
+            slidesToShow: 3,
+            slidesToScroll: 3,
             initialSlide: 0
           }
         },
@@ -56,82 +53,118 @@ export default class Specialitites extends Component {
         <div className="section-header text-center">
         <h2>Clinics and Specialities</h2>
         </div>
-        <Slider {...settings}>
+      
 
-  <article className='s-items'>
-    <aside className="speicality-item">
-      <Link to='/doctors'> 
-        <div id='img-spec'>
-          <img src={sThirteen} alt="Speciality"/> 
-        </div>
-      </Link>
-      <p>General Physician</p>
-      </aside>
-  </article>
-
-  <article className='s-items'>
-    <aside className="speicality-item">
-      <Link to='/doctors'> 
-        <div id='img-spec'>
-          <img src={sSeven} alt="Speciality"/> 
-        </div>
-      </Link>
-      <p>Paediatrician</p>
-      </aside>
-  </article>
-
-  <article className='s-items'>
-    <aside className="speicality-item">
-      <Link to='/doctors'> 
-        <div id='img-spec'>
-          <img src={sFive} alt="Speciality"/> 
-        </div>
-      </Link>
-      <p>Dentist</p>
-      </aside>
-  </article>
-
-  <article className='s-items'>
-    <aside className="speicality-item">
-      <Link to='/doctors'> 
-        <div id='img-spec'>
-          <img src={sFour} alt="Speciality"/> 
-        </div>
-      </Link>
-      <p>Orthopaedics</p>
-      </aside>
-  </article>
-
-  <article className='s-items'>
-    <aside className="speicality-item">
-      <Link to='/doctors'> 
-        <div id='img-spec'>
-          <img src={sSix} alt="Speciality"/> 
-        </div>
-      </Link>
-      <p>Ophthalmology</p>
-      </aside>
-  </article>
-
-  <article className='s-items'>
-    <aside className="speicality-item">
-      <Link to='/doctors'> 
-        <div id='img-spec'>
-          <img src={sTen} alt="Speciality"/> 
-        </div>
-      </Link>
-      <p>ENT Doctor</p>
-      </aside>
-  </article> 
-
-</Slider>
-
-<Link to='/s-list'>
-  <div id='view-btn'>
-  <button className="btn view-btn">View More</button>
+<Container>
+<Slider {...settings}>
+<article className='s-items'>
+<aside className="spec-item">
+  <div className='spec-box'>
+  <Link to='/doctors'> 
+  <div id='spec-img'>
+      <img src={sThirteen} alt="Speciality"/> 
+    </div>
+  </Link>
+  <p>General Physician</p>
   </div>
-</Link>
-      </Container>
+</aside>
+</article>
+
+
+<article className='s-items'>
+
+<aside className="spec-item">
+  
+  <div className='spec-box'>
+  <Link to='/doctors'> 
+  <div id='spec-img'>
+      <img src={sSeven} alt="Speciality"/> 
+    </div>
+  </Link>
+  <p>Paediatrician</p>
+  </div>
+  
+</aside>
+
+</article>
+
+
+<article className='s-items'>
+
+<aside className="spec-item">
+  
+  <div className='spec-box'>
+  <Link to='/doctors'> 
+  <div id='spec-img'>
+      <img src={sFive} alt="Speciality"/> 
+    </div>
+  </Link>
+  <p>Dentist</p>
+  </div>
+  
+</aside>
+
+</article>
+
+
+<article className='s-items'>
+
+<aside className="spec-item">
+  
+  <div className='spec-box'>
+  <Link to='/doctors'> 
+  <div id='spec-img'>
+      <img src={sFour} alt="Speciality"/> 
+    </div>
+  </Link>
+  <p>Orthopaedics</p>
+  </div>
+  
+</aside>
+
+</article>
+
+
+<article className='s-items'>
+
+<aside className="spec-item">
+  
+  <div className='spec-box'>
+  <Link to='/doctors'> 
+  <div id='spec-img'>
+      <img src={sSix} alt="Speciality"/> 
+    </div>
+  </Link>
+  <p>Ophthalmology</p>
+  </div>
+  
+</aside>
+
+</article>
+
+
+<article className='s-items'>
+
+<aside className="spec-item">
+  
+  <div className='spec-box'>
+  <Link to='/doctors'> 
+  <div id='spec-img'>
+      <img src={sTen} alt="Speciality"/> 
+    </div>
+  </Link>
+  <p>ENT Doctor</p>
+  </div>
+  
+</aside>
+
+</article>
+
+  </Slider>
+</Container>
+
+</Container>
+
     );
   }
 }

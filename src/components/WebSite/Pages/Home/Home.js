@@ -37,8 +37,9 @@ const Home = () => {
 
 
 <Specialitites/>
-<Three/>
 <Appointment/>
+<Three/>
+
 <SelfCheck/>
 <BannerTwo/>
 

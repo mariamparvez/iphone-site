@@ -18,11 +18,6 @@
     text-align: start;
     margin: 2rem 0 1rem;
   }
-  .speicality-item p {
-    font-size: 12px !important;
-    line-height: 16px;
-    text-align: start !important;
-  }
   #img-spec img {
     width: 60%;
     height: 60%;
@@ -42,7 +37,27 @@
     padding: 0.1rem !important;
     font-size: 12px !important;
   }
+  .slick-prev:before,
   .slick-next:before {
-    display: none;
+    display: none !important;
+  }
+  .spec-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 0.4rem;
+    border: 1px solid #a3a3a3;
+    padding: 1rem;
+    margin: 1rem;
+  }
+  .spec-box p {
+    width: max-content;
+    padding-top: 1rem;
+    margin: 0 auto !important;
+    padding-left: 0 !important;
+  }
+  .slick-slide {
+    width: 160px !important;
   }
 }
