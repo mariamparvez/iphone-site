@@ -19,7 +19,6 @@ const data = [
 function Tests() {
     return (
         <div>
-        <p className='tests-vm'>View More</p>
         <div className='tests'>
             
             {data.map(item => {

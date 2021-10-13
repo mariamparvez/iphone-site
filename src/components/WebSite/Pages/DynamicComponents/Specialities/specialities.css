@@ -11,7 +11,7 @@
     width: fit-content !important;
   }
   .speciality {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
   .section-header h2 {
     font-size: 1rem !important;
@@ -49,7 +49,7 @@
     border-radius: 0.4rem;
     border: 1px solid #a3a3a3;
     padding: 1rem;
-    margin: 1rem;
+    margin: 0.4rem;
   }
   .spec-box p {
     width: max-content;

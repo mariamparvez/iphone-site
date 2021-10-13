@@ -14,7 +14,6 @@ export default class OurService extends Component {
       dots: false,
       infinite: true,
       speed: 500,
-      slidesToShow: 6,
       slidesToScroll: 0,
       initialSlide: 0,
       responsive: [
@@ -54,32 +53,27 @@ export default class OurService extends Component {
 
   <article>
     <aside className='os-box'>
-      <img className='os-img' src={OsOne} width={160} height={160} alt="os-one" />
+      <img className='os-img' src={OsOne} width={170} height={170} alt="os-one" />
       <p>Covid 19</p>
     </aside>
   </article>
 
   <article>
     <aside className='os-box'>
-      <img className='os-img' src={OsTwo} width={160} height={160} alt="os-one" />
+      <img className='os-img' src={OsTwo} width={170} height={170} alt="os-one" />
       <p>Medicine</p>
     </aside>
   </article>
 
   <article>
     <aside className='os-box'>
-      <img className='os-img' src={OsThree} width={160} height={160} alt="os-one" />
+      <img className='os-img' src={OsThree} width={170} height={170} alt="os-one" />
       <p>Hospital</p>
     </aside>
   </article>
 
 </Slider>
 
-<Link to='/s-list'>
-  <div id='view-btn'>
-  <button className="btn view-btn">View More</button>
-  </div>
-</Link>
       </Container>
     );
   }

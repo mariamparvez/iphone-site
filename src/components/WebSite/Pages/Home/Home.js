@@ -9,7 +9,6 @@ import Space from '../DynamicComponents/Space/Space';
 import DocHome from '../Doctors/Doctors/DocHome';
 import HomeBanner from './HomeBanner/HomeBanner';
 import SelfCheck from '../DynamicComponents/SelfCheck/SelfCheck';
-import BannerTwo from './BannerTwo/BannerTwo';
 import Tests from '../DynamicComponents/Tests/Tests';
 import Search from '../DynamicComponents/Search/Search';
 
@@ -37,9 +36,8 @@ const Home = () => {
 <Specialitites/>
 <Appointment/>
 
-
-<BannerTwo/>
 <SelfCheck/>
+        
 <Container>
     <article id='f-box' className='text-center'>
     <h3 style={{paddingTop: '2rem'}}>What People Say about Us</h3>
