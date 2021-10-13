@@ -15,18 +15,16 @@ function SelfCheck() {
         {SCData.map(item => {
                 return(
                     <div className='sc-box'>
-                    <img key={item.text} src={item.img} alt="itemimg" />
+                    <img key={item.text} width={90} height={90} src={item.img} alt="itemimg" />
+                    
+                    <div className='scu-p'>
                     <p>{item.text}</p>
+                    </div>
+                   
                     </div>
                 )
             })}
         </div>
-
-        <Link to='/s-list'>
-        <div id='view-btn'>
-        <button className="btn view-btn">View More</button>
-        </div>
-        </Link>
 
         <div>
 

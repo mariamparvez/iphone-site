@@ -40,15 +40,16 @@ const Home = () => {
 <Appointment/>
 <Three/>
 
-<SelfCheck/>
-<BannerTwo/>
 
+<BannerTwo/>
+<SelfCheck/>
 <Container>
     <article id='f-box' className='text-center'>
     <h3 style={{paddingTop: '2rem'}}>What People Say about Us</h3>
     <Feedback/>
     </article>
 </Container>
+
 <Blog/>
 </main>
 </>

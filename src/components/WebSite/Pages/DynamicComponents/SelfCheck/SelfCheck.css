@@ -2,11 +2,6 @@
   margin-top: 0 !important;
   color: rgb(147, 164, 211) !important;
 }
-.sc-box img {
-  padding: 1rem;
-  border-radius: 2rem;
-  border: 1px solid rgb(156, 156, 156);
-}
 .sc-section {
   display: flex;
   margin-top: 1rem;
@@ -17,13 +12,22 @@
 }
 .sc-box p {
   font-size: 12px;
-  margin-top: 12px;
+  margin: 0 auto;
+}
+.scu-p {
+  padding: 0.6rem 0 0.6rem 0.2rem;
+  width: 5.8rem;
+  box-shadow: 0 4px 8px 0 rgba(134, 134, 134, 0.1),
+    0 6px 20px 0 rgba(134, 134, 134, 0.09);
 }
 .sc-box {
   flex: wrap;
-  width: 5rem;
-  margin-right: 1rem;
+  width: 6rem;
+  margin: 0.4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.sc-box img {
+  border-radius: 0.4rem 0.4rem 0 0;
 }

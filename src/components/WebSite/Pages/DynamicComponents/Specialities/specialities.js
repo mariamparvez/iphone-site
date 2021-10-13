@@ -162,7 +162,6 @@ export default class Specialitites extends Component {
 
   </Slider>
 </Container>
-
 </Container>
 
     );

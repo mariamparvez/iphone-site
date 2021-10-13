@@ -1,8 +1,8 @@
-import heart from '../../../../assets/img/sc-icons/heart.svg'
-import covid from '../../../../assets/img/sc-icons/covid.svg'
-import migrain from '../../../../assets/img/sc-icons/migrain.svg'
-import diabities from '../../../../assets/img/sc-icons/diabities.svg'
-import thyroid from '../../../../assets/img/sc-icons/thyroid.svg'
+import heart from '../../../../assets/img/scu/1.jpg'
+import covid from '../../../../assets/img/scu/2.jpg'
+import migrain from '../../../../assets/img/scu/3.jpg'
+import diabities from '../../../../assets/img/scu/4.jpg'
+import thyroid from '../../../../assets/img/scu/5.jpg'
 
 export const SCData = [
     {
