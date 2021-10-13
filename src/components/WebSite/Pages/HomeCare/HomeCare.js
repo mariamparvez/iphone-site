@@ -16,8 +16,8 @@ const HomeCare = () => {
 <main className="main-wrapper"> 
 <Space/>
 <Container className="c-banner-design">
-            <Search/> 
-    </Container>
+    <Search/> 
+</Container>
     <section className="home-care-banner">
     <div className="home-care-header">
             <h1>Professional Healthcare services, At the convenience of your Home.</h1>
