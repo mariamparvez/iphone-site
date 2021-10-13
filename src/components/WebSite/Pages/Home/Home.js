@@ -3,7 +3,6 @@ import { Container } from 'react-bootstrap';
 import Specialitites from '../DynamicComponents/Specialities/specialities';
 import OurService from '../DynamicComponents/OurService/OurService';
 import Feedback from './FeedBack';
-import Blog from '../Blog/Blog';
 import Appointment from '../Appointments/Appointment/Appointment';
 import Space from '../DynamicComponents/Space/Space';
 import DocHome from '../Doctors/Doctors/DocHome';
@@ -45,7 +44,6 @@ const Home = () => {
     </article>
 </Container>
 
-<Blog/>
 </main>
 </>
 );
