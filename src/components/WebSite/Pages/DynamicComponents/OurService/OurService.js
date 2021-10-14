@@ -40,6 +40,13 @@ export default class OurService extends Component {
             slidesToShow: 2,
             slidesToScroll: 2
           }
+        },
+        {
+          breakpoint: 440,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3
+          }
         }
       ]
     };
@@ -53,25 +60,31 @@ export default class OurService extends Component {
 
   <article>
     <aside className='os-box'>
-      <img className='os-img' src={OsOne} width={170} height={170} alt="os-one" />
+      <img className='os-img' src={OsOne}alt="os-one" />
       <p>Covid 19</p>
     </aside>
   </article>
 
   <article>
     <aside className='os-box'>
-      <img className='os-img' src={OsTwo} width={170} height={170} alt="os-one" />
-      <p>Medicine</p>
+      <img className='os-img' src={OsTwo}alt="os-one" />
+      <p>Medicines</p>
     </aside>
   </article>
 
   <article>
     <aside className='os-box'>
-      <img className='os-img' src={OsThree} width={170} height={170} alt="os-one" />
+      <img className='os-img' src={OsThree}alt="os-one" />
       <p>Hospital</p>
     </aside>
   </article>
 
+  <article>
+    <aside className='os-box'>
+      <img className='os-img' src={OsThree}alt="os-one" />
+      <p>Hospital</p>
+    </aside>
+  </article>
 </Slider>
 
       </Container>

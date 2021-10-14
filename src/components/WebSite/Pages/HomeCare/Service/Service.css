@@ -1,7 +1,3 @@
-.slick-track {
-  display: flex;
-  justify-content: space-between;
-}
 @media only screen and (max-width: 490px) {
   .hcare-special {
     padding: 0.2rem;
