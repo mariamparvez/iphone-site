@@ -7,8 +7,7 @@ function HomeBanner() {
           
             <div className='hb-banner'>
                 <div className="hb-content">
-                <p className='hb-text'>Lorem, ipsum. <br/> Lorem ip sit.</p>
-                <button type="button" class="btn btn-success">Know More</button>
+                <p className='hb-text'>Healthcare<br/> Professionals <br/>from Top <br/>Hospitals</p>
                 </div>
           
             </div>
