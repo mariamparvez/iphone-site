@@ -1,7 +1,7 @@
 import React from 'react'
 import './Test.css'
-import one from '../../../../assets/img/tests/covid-test.svg'
-import two from '../../../../assets/img/tests/medical-checkup.svg'
+import one from '../../../../assets/img/tests/covid-test.jpg'
+import two from '../../../../assets/img/tests/medical-checkup.jpg'
 
 const data = [
     {
@@ -24,7 +24,7 @@ function Tests() {
             {data.map(item => {
                 return(
                 <div className='tests-box'>
-                    <img src={item.img} alt="imgtest"/>
+                    <img src={item.img} width={160} height={100} alt="imgtest"/>
                     <h6>{item.header}</h6>
                     <p>{item.text}</p>
                 </div>

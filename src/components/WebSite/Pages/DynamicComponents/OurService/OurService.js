@@ -61,7 +61,7 @@ export default class OurService extends Component {
   <article>
     <aside className='os-box'>
       <img className='os-img' src={OsOne}alt="os-one" />
-      <p>Covid 19</p>
+      <p>Covid 19 Test</p>
     </aside>
   </article>
 
@@ -75,7 +75,7 @@ export default class OurService extends Component {
   <article>
     <aside className='os-box'>
       <img className='os-img' src={OsThree}alt="os-one" />
-      <p>Hospital</p>
+      <p>Certified Labs</p>
     </aside>
   </article>
 
