@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/iphone-site/static/css/main.f644633f.chunk.css",
-    "main.js": "/iphone-site/static/js/main.8a9b41e4.chunk.js",
-    "main.js.map": "/iphone-site/static/js/main.8a9b41e4.chunk.js.map",
+    "main.js": "/iphone-site/static/js/main.a8512cbf.chunk.js",
+    "main.js.map": "/iphone-site/static/js/main.a8512cbf.chunk.js.map",
     "runtime-main.js": "/iphone-site/static/js/runtime-main.e1a3e96b.js",
     "runtime-main.js.map": "/iphone-site/static/js/runtime-main.e1a3e96b.js.map",
     "static/css/2.f2512455.chunk.css": "/iphone-site/static/css/2.f2512455.chunk.css",
@@ -61,7 +61,7 @@
     "static/media/blog-1.52ba6780.jpg": "/iphone-site/static/media/blog-1.52ba6780.jpg",
     "static/media/blog-2.a193addc.jpg": "/iphone-site/static/media/blog-2.a193addc.jpg",
     "static/media/book-doc-01.7dc03ad3.jpg": "/iphone-site/static/media/book-doc-01.7dc03ad3.jpg",
-    "static/media/covid-test.6ba526ba.svg": "/iphone-site/static/media/covid-test.6ba526ba.svg",
+    "static/media/covid-test.c07e0cad.jpg": "/iphone-site/static/media/covid-test.c07e0cad.jpg",
     "static/media/doctor-thumb-02.a916acec.jpg": "/iphone-site/static/media/doctor-thumb-02.a916acec.jpg",
     "static/media/FAQPage.css": "/iphone-site/static/media/f-banner.e9544d44.jpg",
     "static/media/feature-01.fe69ebac.jpg": "/iphone-site/static/media/feature-01.fe69ebac.jpg",
@@ -76,7 +76,7 @@
     "static/media/HomeBanner.css": "/iphone-site/static/media/home-banner.3acc8775.jpg",
     "static/media/home.ca69c127.jpg": "/iphone-site/static/media/home.ca69c127.jpg",
     "static/media/logo.9cf8c994.png": "/iphone-site/static/media/logo.9cf8c994.png",
-    "static/media/medical-checkup.fc745ae1.svg": "/iphone-site/static/media/medical-checkup.fc745ae1.svg",
+    "static/media/medical-checkup.ad2e1d5c.jpg": "/iphone-site/static/media/medical-checkup.ad2e1d5c.jpg",
     "static/media/aboutus.css": "/iphone-site/static/media/one.5f14b21f.jpg",
     "static/media/sec-1.72573bdd.png": "/iphone-site/static/media/sec-1.72573bdd.png",
     "static/media/sec-2.0306a218.png": "/iphone-site/static/media/sec-2.0306a218.png",
@@ -89,6 +89,6 @@
     "static/css/2.f2512455.chunk.css",
     "static/js/2.d17fd6f9.chunk.js",
     "static/css/main.f644633f.chunk.css",
-    "static/js/main.8a9b41e4.chunk.js"
+    "static/js/main.a8512cbf.chunk.js"
   ]
 }
