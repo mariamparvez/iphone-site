@@ -16,11 +16,9 @@ export default class Specialitites extends Component {
     var settings = {
       dots: false,
       infinite: true,
-      speed: 400,
+      speed: 600,
       slidesToShow: 6,
-      touchThreshold:100,
-      slidesToScroll: 0,
-      initialSlide: 0,
+      slidesToScroll: 6,
       responsive: [
         {
           breakpoint: 1024,
@@ -28,7 +26,8 @@ export default class Specialitites extends Component {
             slidesToShow: 3,
             slidesToScroll: 3,
             infinite: true,
-            dots: false
+            dots: false,
+            swipeToSlide: true
           }
         },
         {
@@ -36,14 +35,16 @@ export default class Specialitites extends Component {
           settings: {
             slidesToShow: 3,
             slidesToScroll: 3,
-            initialSlide: 0
+            initialSlide: 2
           }
         },
         {
           breakpoint: 480,
           settings: {
             slidesToShow: 3,
-            slidesToScroll: 3
+            slidesToScroll: 1,
+            touchThreshold:100,
+        
           }
         }
       ]
