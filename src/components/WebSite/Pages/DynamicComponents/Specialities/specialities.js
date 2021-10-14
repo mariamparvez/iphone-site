@@ -18,6 +18,7 @@ export default class Specialitites extends Component {
       infinite: true,
       speed: 400,
       slidesToShow: 6,
+      touchThreshold:100,
       slidesToScroll: 0,
       initialSlide: 0,
       responsive: [

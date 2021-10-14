@@ -66,7 +66,7 @@ fetchData();
 })}
     </article>
 <Link to='/doctors'>
-<button className="btn view-btn">Read More</button>
+<button className="btn view-btn">View More</button>
 </Link>
         
     </article>

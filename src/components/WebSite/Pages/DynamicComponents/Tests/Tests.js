@@ -6,7 +6,7 @@ import two from '../../../../assets/img/tests/medical-checkup.jpg'
 const data = [
     {
         img: one,
-        header: 'Covid-19 Test',
+        header: 'Video Consultation',
         text: 'K K-clinic'
     },
     {
