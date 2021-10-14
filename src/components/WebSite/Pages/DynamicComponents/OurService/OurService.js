@@ -45,7 +45,8 @@ export default class OurService extends Component {
           breakpoint: 440,
           settings: {
             slidesToShow: 3,
-            slidesToScroll: 3
+            slidesToScroll: 1,
+            touchThreshold:100,
           }
         }
       ]
