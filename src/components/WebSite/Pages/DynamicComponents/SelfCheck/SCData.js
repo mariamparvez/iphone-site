@@ -10,16 +10,12 @@ export const SCData = [
         text: `Heart Health`
     },
     {
-        img: covid,
-        text: `Covid 19`
-    },
-    {
         img: migrain,
-        text: `Migrain`
+        text: `Migraine`
     },
     {
         img: diabities,
-        text: `Diabities`
+        text: `Diabetes`
     },
     {
         img: thyroid,

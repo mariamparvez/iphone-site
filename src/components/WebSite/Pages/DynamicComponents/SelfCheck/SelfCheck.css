@@ -21,7 +21,7 @@
 }
 .sc-box {
   flex: wrap;
-  width: 6rem;
+  width: inherit;
   margin: 0.4rem;
   display: flex;
   flex-direction: column;
