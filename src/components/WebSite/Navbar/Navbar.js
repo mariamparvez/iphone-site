@@ -125,7 +125,6 @@ function Navbar() {
 
         <li className='s-navbox'>
           <p>Information for your health and wellness</p>
-          <button type="button" class="btn btn-success">Know More</button>
         </li>
 
       <div className='r-navbox'>

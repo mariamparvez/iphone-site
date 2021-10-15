@@ -52,12 +52,13 @@ function RFooter() {
             </Dropdown.Menu>
         </Dropdown>
 
-        <select name="footer-one" id="footer-one">
-            <option value="one"></option>
-            <option value="two"></option>
-            <option value="three"></option>
-            <option value="four"></option>
-        </select>
+        <select class="form-select" aria-label="Default select example">
+  <option selected>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
+        
 
         <div className="footer-bottom vanish-footer">
             <div className="container-fluid">
@@ -70,8 +71,6 @@ function RFooter() {
                                 <p className="mb-0 text-center">&copy; 2021 Medatu. All rights reserved.</p>
                             </div>
                         </div>
-
-                        
 
                     </div>
                 </div>
