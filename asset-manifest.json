@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/iphone-site/static/css/main.c5d750ab.chunk.css",
-    "main.js": "/iphone-site/static/js/main.2e5e8032.chunk.js",
-    "main.js.map": "/iphone-site/static/js/main.2e5e8032.chunk.js.map",
+    "main.js": "/iphone-site/static/js/main.4c89a987.chunk.js",
+    "main.js.map": "/iphone-site/static/js/main.4c89a987.chunk.js.map",
     "runtime-main.js": "/iphone-site/static/js/runtime-main.81c033fd.js",
     "runtime-main.js.map": "/iphone-site/static/js/runtime-main.81c033fd.js.map",
     "static/css/2.f2512455.chunk.css": "/iphone-site/static/css/2.f2512455.chunk.css",
@@ -37,19 +37,23 @@
     "static/media/1.49166fc0.svg": "/iphone-site/static/media/1.49166fc0.svg",
     "static/media/1.5ee949e1.svg": "/iphone-site/static/media/1.5ee949e1.svg",
     "static/media/1.70920831.png": "/iphone-site/static/media/1.70920831.png",
+    "static/media/1.9d936cf4.jpg": "/iphone-site/static/media/1.9d936cf4.jpg",
     "static/media/1.ad3e0551.jpg": "/iphone-site/static/media/1.ad3e0551.jpg",
     "static/media/1.d69915a8.jpg": "/iphone-site/static/media/1.d69915a8.jpg",
     "static/media/2.036f25fe.png": "/iphone-site/static/media/2.036f25fe.png",
+    "static/media/2.0c8d5930.jpg": "/iphone-site/static/media/2.0c8d5930.jpg",
     "static/media/2.18f47718.svg": "/iphone-site/static/media/2.18f47718.svg",
     "static/media/2.89fdaa63.svg": "/iphone-site/static/media/2.89fdaa63.svg",
     "static/media/2.fb1970c5.jpg": "/iphone-site/static/media/2.fb1970c5.jpg",
     "static/media/3.54a4a576.png": "/iphone-site/static/media/3.54a4a576.png",
     "static/media/3.63054ab2.jpg": "/iphone-site/static/media/3.63054ab2.jpg",
+    "static/media/3.81b4f5dd.jpg": "/iphone-site/static/media/3.81b4f5dd.jpg",
     "static/media/3.9720cfcd.jpg": "/iphone-site/static/media/3.9720cfcd.jpg",
     "static/media/3.ad92c77a.svg": "/iphone-site/static/media/3.ad92c77a.svg",
     "static/media/3.c15e2333.svg": "/iphone-site/static/media/3.c15e2333.svg",
     "static/media/4.b776a72e.jpg": "/iphone-site/static/media/4.b776a72e.jpg",
     "static/media/4.d081b205.png": "/iphone-site/static/media/4.d081b205.png",
+    "static/media/4.d111f350.jpg": "/iphone-site/static/media/4.d111f350.jpg",
     "static/media/5.05254a6d.jpg": "/iphone-site/static/media/5.05254a6d.jpg",
     "static/media/style.css": "/iphone-site/static/media/tick-icon.6da4654e.svg",
     "static/media/appstore.292c3537.png": "/iphone-site/static/media/appstore.292c3537.png",
@@ -88,6 +92,6 @@
     "static/css/2.f2512455.chunk.css",
     "static/js/2.f4b12b0f.chunk.js",
     "static/css/main.c5d750ab.chunk.css",
-    "static/js/main.2e5e8032.chunk.js"
+    "static/js/main.4c89a987.chunk.js"
   ]
 }
