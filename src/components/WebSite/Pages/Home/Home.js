@@ -5,7 +5,6 @@ import OurService from '../DynamicComponents/OurService/OurService';
 import Feedback from './FeedBack';
 import Appointment from '../Appointments/Appointment/Appointment';
 import Space from '../DynamicComponents/Space/Space';
-import DocHome from '../Doctors/Doctors/DocHome';
 import HomeBanner from './HomeBanner/HomeBanner';
 import SelfCheck from '../DynamicComponents/SelfCheck/SelfCheck';
 import Tests from '../DynamicComponents/Tests/Tests';

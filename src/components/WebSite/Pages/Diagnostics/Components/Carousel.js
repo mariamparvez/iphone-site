@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import slider from '../../../../assets/img/slider.png'
+import slider from '../../../../assets/img/slider-diag/1.jpg'
 import Slider from "react-slick";
 import './Carousel.css'
 

@@ -29,34 +29,6 @@ const Diagnostics = () => {
 		<section style={{paddingTop: '2rem'}}><Search/> </section>
   		<Carousel/>
 		</Container>	
-		
-		  <section className="container-fluid">
-		  <div className="work-section">
-			<h2>Medatu offers the facility of Home Sample Collection. You just need to follow some simple steps to book a home collection visit.</h2>
-			<div className="work-box">
-	
-			<div className='work-img'>
-				<img src={iconOne} alt="iconOne" />
-				<h6> To book a home visit, simply add your convenient time and location. Our certified professional from Medatu will be at your doorstep.</h6>
-			</div>
-			
-			
-
-			<div className='work-img'>
-				<img src={iconThree} alt="iconOne" />
-				<h6> Our certified professionals will treat you with utmost safety and follow strict hygiene protocols while collecting samples from you.</h6>
-			</div>
-			
-
-			<div className='work-img'>
-				<img src={iconTwo} alt="iconOne" />
-				<h6>Get your Lab Reports online withing 24 hours.</h6>
-			</div>	
-
-			</div>
-
-		  </div>
-		  </section>
 
 			<section id="aff-blogs" className="section section-blogs">
 				<article id="view-btn">

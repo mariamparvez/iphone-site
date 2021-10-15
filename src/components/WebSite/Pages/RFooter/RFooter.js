@@ -1,56 +1,11 @@
 import React from 'react';
 import './RFooter.css'
-import { Container, Dropdown } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 function RFooter() {
     return (
         <main>
-            
-        <Dropdown id='r-footer'>
-            <Dropdown.Toggle id='r-btn'>
-            Company
-            </Dropdown.Toggle>
-        
-            <Dropdown.Menu>
-                
-            <Dropdown.Item as={Link} id='r-option' to='/'></Dropdown.Item>
-            <Dropdown.Item as={Link} id='r-option' to='/about'></Dropdown.Item>
-            <Dropdown.Item as={Link} id='r-option' to='/'></Dropdown.Item>
-            <Dropdown.Item as={Link} id='r-option' to='/about'></Dropdown.Item>
-            <Dropdown.Item as={Link} id='r-option' to='/'></Dropdown.Item>
-            </Dropdown.Menu>
-        </Dropdown>
-
-        <Dropdown id='r-footer'>
-            <Dropdown.Toggle id='r-btn'>
-            
-            </Dropdown.Toggle>
-        
-            <Dropdown.Menu>
-                
-            <Dropdown.Item as={Link} id='r-option' to='/'></Dropdown.Item>
-            <Dropdown.Item as={Link} id='r-option' to='/about'></Dropdown.Item>
-            <Dropdown.Item as={Link} id='r-option' to='/'></Dropdown.Item>
-            <Dropdown.Item as={Link} id='r-option' to='/'></Dropdown.Item>
-            <Dropdown.Item as={Link} id='r-option' to='/about'></Dropdown.Item>
-            <Dropdown.Item as={Link} id='r-option' to='/'></Dropdown.Item>
-            </Dropdown.Menu>
-        </Dropdown>
-
-        <Dropdown id='r-footer'>
-            <Dropdown.Toggle id='r-btn'>
-            For Professionals
-            </Dropdown.Toggle>
-        
-            <Dropdown.Menu>
-                
-            <Dropdown.Item as={Link} id='r-option' to='/'>Doctor’s Profile</Dropdown.Item>
-            <Dropdown.Item as={Link} id='r-option' to='/about'>Pharmacies</Dropdown.Item>
-            <Dropdown.Item as={Link} id='r-option' to='/'>Diagnostic Labs</Dropdown.Item>
-            <Dropdown.Item as={Link} id='r-option' to='/'>Hospitals</Dropdown.Item>
-            </Dropdown.Menu>
-        </Dropdown>
 
 <Container>
 <select class="form-select" aria-label="Default select example">
@@ -69,6 +24,14 @@ function RFooter() {
   <option value="3">Homeopathy Doctors</option>
   <option value="3">Book Lab Test</option>
   <option value="3">Help Centre</option>
+</select>
+
+<select class="form-select" aria-label="Default select example">
+<option selected>For Business</option>
+  <option selected>Doctor’s Profile</option>
+  <option value="1">Pharmacies</option>
+  <option value="2">Diagnostic Labs</option>
+  <option value="3">Hospitals</option>\
 </select>
 </Container>
         
