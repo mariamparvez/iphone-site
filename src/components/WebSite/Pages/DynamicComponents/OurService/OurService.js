@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import './OurService.css'
-import { Link } from "react-router-dom";
 
 import OsOne from '../../../../assets/img/os-img/1.jpg'
 import OsTwo from '../../../../assets/img/os-img/2.jpg'

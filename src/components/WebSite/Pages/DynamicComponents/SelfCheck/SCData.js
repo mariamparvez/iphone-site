@@ -1,5 +1,4 @@
 import heart from '../../../../assets/img/scu/1.jpg'
-import covid from '../../../../assets/img/scu/2.jpg'
 import migrain from '../../../../assets/img/scu/3.jpg'
 import diabities from '../../../../assets/img/scu/4.jpg'
 import thyroid from '../../../../assets/img/scu/5.jpg'

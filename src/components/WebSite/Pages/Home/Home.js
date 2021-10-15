@@ -10,6 +10,7 @@ import HomeBanner from './HomeBanner/HomeBanner';
 import SelfCheck from '../DynamicComponents/SelfCheck/SelfCheck';
 import Tests from '../DynamicComponents/Tests/Tests';
 import Search from '../DynamicComponents/Search/Search';
+import Hospitals from '../DynamicComponents/Hospitals/Hospitals';
 
 const Home = () => {
 
@@ -30,7 +31,7 @@ const Home = () => {
     <p className="section-p text-center">Top Health Care Professionals to Solve Your Health Issues.</p>
 </div>  
 <DocHome/>
-
+<Hospitals/>
 
 <Specialitites/>
 <Appointment/>
