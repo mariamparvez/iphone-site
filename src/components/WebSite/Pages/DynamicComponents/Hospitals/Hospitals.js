@@ -1,18 +1,10 @@
 import React, { Component } from "react";
 import './Hospitals.css'
+import { hList } from "./hList";
 import Slider from "react-slick";
 import { Container } from "react-bootstrap";
 export default class Responsive extends Component {
-    state = {
-        hospitals: []
-    }
-    componentDidMount() {
-        fetch('https://randomuser.me/api/?results=5')
-        .then((response) => response.json())
-        .then(hospitalList => {
-            this.setState({ hospitals: hospitalList.results });
-        });
-    }
+  
   render() {
     var settings = {
       dots: false,
@@ -48,18 +40,17 @@ export default class Responsive extends Component {
         }
       ]
     };
-    console.log(this.state.hospitals)
     return (
       <Container className='hospitals'>
         <Slider {...settings}>
-         {this.state.hospitals.map(hospital => {
+         {hList.map(hospital => {
              return(
                  <>
                  <section className='hospital-box'>
-                     <img src={hospital.picture.medium} alt="" />
+                     <img src={hospital.img} alt="" />
                      <article className='hospital-text'>
-                         <h5>{hospital.name.first} {hospital.name.last}</h5>
-                         <p>{hospital.location.country} {hospital.location.state}</p>
+                         <h5>{hospital.name}</h5>
+                         <p>{hospital.place}</p>
                      </article>
                  </section>
                  </>
