@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+import './Hospitals.css'
 import Slider from "react-slick";
+import { Container } from "react-bootstrap";
 export default class Responsive extends Component {
     state = {
         hospitals: []
@@ -15,7 +17,7 @@ export default class Responsive extends Component {
     var settings = {
       dots: false,
       infinite: true,
-      speed: 500,
+      speed: 400,
       slidesToShow: 4,
       slidesToScroll: 1,
       initialSlide: 1,
@@ -46,24 +48,26 @@ export default class Responsive extends Component {
         }
       ]
     };
+    console.log(this.state.hospitals)
     return (
-      <div>
-        <h2> Responsive </h2>
+      <Container className='hospitals'>
         <Slider {...settings}>
          {this.state.hospitals.map(hospital => {
              return(
                  <>
-                 <section>
+                 <section className='hospital-box'>
                      <img src={hospital.picture.medium} alt="" />
-                     <article>
+                     <article className='hospital-text'>
                          <h5>{hospital.name.first} {hospital.name.last}</h5>
+                         <p>{hospital.location.country} {hospital.location.state}</p>
                      </article>
                  </section>
                  </>
              )
          })}
         </Slider>
-      </div>
+        
+      </Container>
     );
   }
 }
