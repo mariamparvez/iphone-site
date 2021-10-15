@@ -1,6 +1,6 @@
 import React from 'react';
 import './RFooter.css'
-import { Dropdown } from 'react-bootstrap';
+import { Container, Dropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 function RFooter() {
@@ -14,27 +14,27 @@ function RFooter() {
         
             <Dropdown.Menu>
                 
-            <Dropdown.Item as={Link} id='r-option' to='/'>About Us</Dropdown.Item>
-            <Dropdown.Item as={Link} id='r-option' to='/about'>Our Services</Dropdown.Item>
-            <Dropdown.Item as={Link} id='r-option' to='/'>How It Works</Dropdown.Item>
-            <Dropdown.Item as={Link} id='r-option' to='/about'>FAQs</Dropdown.Item>
-            <Dropdown.Item as={Link} id='r-option' to='/'>Careers</Dropdown.Item>
+            <Dropdown.Item as={Link} id='r-option' to='/'></Dropdown.Item>
+            <Dropdown.Item as={Link} id='r-option' to='/about'></Dropdown.Item>
+            <Dropdown.Item as={Link} id='r-option' to='/'></Dropdown.Item>
+            <Dropdown.Item as={Link} id='r-option' to='/about'></Dropdown.Item>
+            <Dropdown.Item as={Link} id='r-option' to='/'></Dropdown.Item>
             </Dropdown.Menu>
         </Dropdown>
 
         <Dropdown id='r-footer'>
             <Dropdown.Toggle id='r-btn'>
-            For People
+            
             </Dropdown.Toggle>
         
             <Dropdown.Menu>
                 
-            <Dropdown.Item as={Link} id='r-option' to='/'>Language</Dropdown.Item>
-            <Dropdown.Item as={Link} id='r-option' to='/about'>Speciality</Dropdown.Item>
-            <Dropdown.Item as={Link} id='r-option' to='/'>Ayurvedic Doctors</Dropdown.Item>
-            <Dropdown.Item as={Link} id='r-option' to='/'>Homeopathy Doctors</Dropdown.Item>
-            <Dropdown.Item as={Link} id='r-option' to='/about'>Book Lab Test</Dropdown.Item>
-            <Dropdown.Item as={Link} id='r-option' to='/'>Help Centre</Dropdown.Item>
+            <Dropdown.Item as={Link} id='r-option' to='/'></Dropdown.Item>
+            <Dropdown.Item as={Link} id='r-option' to='/about'></Dropdown.Item>
+            <Dropdown.Item as={Link} id='r-option' to='/'></Dropdown.Item>
+            <Dropdown.Item as={Link} id='r-option' to='/'></Dropdown.Item>
+            <Dropdown.Item as={Link} id='r-option' to='/about'></Dropdown.Item>
+            <Dropdown.Item as={Link} id='r-option' to='/'></Dropdown.Item>
             </Dropdown.Menu>
         </Dropdown>
 
@@ -52,12 +52,26 @@ function RFooter() {
             </Dropdown.Menu>
         </Dropdown>
 
-        <select class="form-select" aria-label="Default select example">
-  <option selected>Open this select menu</option>
-  <option value="1">One</option>
-  <option value="2">Two</option>
-  <option value="3">Three</option>
+<Container>
+<select class="form-select" aria-label="Default select example">
+  <option selected>Company</option>
+  <option value="1">About Us</option>
+  <option value="2">Our Services</option>
+  <option value="3">How It Works</option>
+  <option value="3">FAQs</option>
+  <option value="3">Careers</option>
 </select>
+
+<select class="form-select" aria-label="Default select example">
+  <option selected>For People</option>
+  <option value="1">Language</option>
+  <option value="2">Ayurvedic Doctors</option>
+  <option value="3">Homeopathy Doctors</option>
+  <option value="3">Book Lab Test</option>
+  <option value="3">Help Centre</option>
+</select>
+</Container>
+        
         
 
         <div className="footer-bottom vanish-footer">
