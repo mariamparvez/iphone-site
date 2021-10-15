@@ -21,7 +21,7 @@ import SpecialityList from '../Pages/DynamicComponents/Specialities/SpecialityLi
 import TestDetails from '../Pages/Diagnostics/TestDetails/TestDetails';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faBriefcaseMedical, faCapsules, faFemale, faHeartbeat, faMobileAlt, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDoubleRight, faAngleRight, faArrowRight, faBars, faBriefcaseMedical, faCapsules, faFemale, faHeartbeat, faMobileAlt, fas, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { Button } from "./Button";
 import {
   BrowserRouter as Router,
@@ -77,6 +77,10 @@ function Navbar() {
             <h6>Home Care-</h6>
             <p>Doctor at Home</p>
         </div>
+       
+          <FontAwesomeIcon icon={faAngleRight} className='arrow-right' />
+       
+        
         </Link></li>
 
         <li className='nav-item'><Link to='/virtual-care' className='nav-links' onClick={closeMobileMenu}>
@@ -88,6 +92,10 @@ function Navbar() {
             <h6>Virtual Care-</h6>
             <p>Video Consultations</p>
         </div>
+       
+          <FontAwesomeIcon icon={faAngleRight} className='arrow-right' />
+       
+        
         </Link></li>
 
         <li className='nav-item'><Link to='/coming-soon' className='nav-links' onClick={closeMobileMenu}>
@@ -99,6 +107,10 @@ function Navbar() {
           <h6>Pharmacy-</h6>
             <p>medatu.shop</p>
         </div>
+       
+          <FontAwesomeIcon icon={faAngleRight} className='arrow-right' />
+       
+        
         </Link></li>
 
         <li className='nav-item'><Link to='/diagnostics' className='nav-links' onClick={closeMobileMenu}>
@@ -110,6 +122,10 @@ function Navbar() {
             <h6>Diagnostics-</h6>   
             <p>Tests and Checkups</p>
         </div>
+       
+          <FontAwesomeIcon icon={faAngleRight} className='arrow-right' />
+       
+        
         </Link></li>
 
         <li className='nav-item'><Link to='/for-women' className='nav-links' onClick={closeMobileMenu}>
@@ -121,6 +137,10 @@ function Navbar() {
             <h6>For Women-</h6>
             <p>Complete Women care</p>
         </div> 
+       
+          <FontAwesomeIcon icon={faAngleRight} className='arrow-right' />
+       
+        
         </Link></li>
 
         <li className='s-navbox'>
@@ -130,22 +150,27 @@ function Navbar() {
       <div className='r-navbox'>
         <li>
         Medical records
+        <FontAwesomeIcon icon={faAngleRight} className='arrow-right' />
         </li>
 
         <li>
         Medatu for Businesses
+        <FontAwesomeIcon icon={faAngleRight} className='arrow-right' />
         </li>
 
         <li>
         Contact us
+        <FontAwesomeIcon icon={faAngleRight} className='arrow-right' />
         </li>
 
         <li>
         Terms of use
+        <FontAwesomeIcon icon={faAngleRight} className='arrow-right' />
         </li>
 
         <li>
         Privacy policy
+        <FontAwesomeIcon icon={faAngleRight} className='arrow-right' />
         </li>
       </div>
 
