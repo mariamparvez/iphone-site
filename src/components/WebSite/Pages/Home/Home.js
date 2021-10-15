@@ -28,7 +28,7 @@ const Home = () => {
 <Tests/>
 
 <div className="section-header text-center">
-    <p className="section-p text-center">Top Health Care Professionals to Solve Your Health Issues.</p>
+    <p className="section-p text-center">Find doctors in top hospitals</p>
 </div>  
 <Hospitals/>
 
